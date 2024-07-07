@@ -34,11 +34,16 @@
 .section-description{
 font-size: 18px;
 color: #757575;
+padding: 50px;
 }
 .secondry-bg{
   background-color: #FFF8F3;
 
 }
+.text-center{
+  text-align: center;
+}
+
 
 /* header ar background image*/
 .header{
@@ -99,13 +104,17 @@ main{
 max-width: 1140px;
 margin: 0 auto;
 }
+main section{
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
 
 /* about sectionar jonno style */
 .about{
   border-radius: 10px;
   padding: 130px 150px;
   text-align: center;
-  margin-top: 130px;
+ 
 }
 .about-items{
   display: flex;
@@ -114,4 +123,14 @@ margin: 0 auto;
 }
 .item-description{
   font-weight: bold;
+}
+/* slills section styles */
+.skills-container{
+  display: flex;
+  gap: 24px;
+}
+.skill{
+  padding: 33px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
 }
